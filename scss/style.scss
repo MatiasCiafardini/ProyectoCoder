@@ -1,0 +1,22 @@
+
+/* Variables */
+@import "utilities/variables";
+
+
+/* Base */
+@import "base/custom-class";
+@import "base/resets";
+
+
+    /* Layout */
+/* Header y Footer */
+@import "layout/header";
+@import "layout/footer";
+
+/* Pages */
+
+@import "layout/pages/Proyectos";
+@import "layout/pages/SobreNosotros";
+@import "layout/pages/Contacto";
+@import "layout/pages/Index";
+@import "layout/pages/Servicios";

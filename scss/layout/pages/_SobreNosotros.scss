@@ -1,0 +1,36 @@
+
+.div_compania {
+    background-color: $BackgroundColor;
+}
+
+.section_nosotros {
+    display: flex;
+
+    img {
+        width: 20rem;
+        border-radius: 100%;
+        padding: 20px;
+    
+        &:hover{
+            transition: transform .5s;
+            transform: scale(1.1);
+            box-shadow: 50 50 50 50 white;
+        }
+    }
+    
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    .p_nosotros {
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+
+

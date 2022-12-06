@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap');
+
+
+@mixin textos_decorados($aling: center, $size: 2rem, $decoracion: none) {
+    text-align: $aling;
+    font-size:  $size;
+    text-decoration: underline;
+}
+
+
+
+body {
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*Responsive y datos*/
+@media (min-width: 992px) {
+    .div_navegador {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_logo{
+        visibility: visible;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+  }
+  @media (max-width: 991px) {
+    .img_logo{
+        display: none;
+    }
+  }
+
+  
+
+a {
+    text-decoration: none;
+    color: gainsboro !important;
+
+    &:hover {
+        text-decoration: none !important;
+        color: gray !important;
+    }
+}
+
+
+button{
+    background-color: white !important;
+  }
+  
+
+  
+  
+  
+  

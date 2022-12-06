@@ -1,0 +1,43 @@
+
+h1,
+h2,
+h3,
+p {
+    
+    color: white;
+    padding: 10px;
+}
+
+.div_titulo {
+    
+
+    h1{
+        font-size: 6rem;
+        text-align: center;
+    }
+}
+
+p{
+    font-size: 1rem;
+}
+
+.div_informacion {
+    text-align: center;
+    padding: 3rem;
+
+    p {
+        font-size: 1.5rem;
+    }
+    
+    
+    h2 {
+        @include textos_decorados($aling: center,  $size: 3rem, underline);
+    }
+    
+    h3{
+        @include textos_decorados(center, 1rem, none);
+    }
+    
+
+}
+

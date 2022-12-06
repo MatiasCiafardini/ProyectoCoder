@@ -1,0 +1,190 @@
+/* Variables */
+/* Base */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap");
+body {
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/*Responsive y datos*/
+@media (min-width: 992px) {
+  .div_navegador {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .img_logo {
+    visibility: visible; }
+  footer {
+    position: fixed;
+    bottom: 0; } }
+
+@media (max-width: 991px) {
+  .img_logo {
+    display: none; } }
+
+a {
+  text-decoration: none;
+  color: gainsboro !important; }
+  a:hover {
+    text-decoration: none !important;
+    color: gray !important; }
+
+button {
+  background-color: white !important; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Layout */
+/* Header y Footer */
+header {
+  font-family: 'Bebas Neue', sans-serif;
+  background-image: linear-gradient(black, black, black, transparent);
+  height: auto; }
+
+.ul_navegador {
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin: 5% 0 5% 0;
+  padding-inline-start: 0px; }
+
+footer {
+  background-color: black;
+  text-align: left;
+  color: white;
+  width: 100%;
+  padding: 0.5rem; }
+
+/* Pages */
+.Servicios {
+  display: flex; }
+
+.NuestrosServicios_informacion {
+  padding: 1rem; }
+
+.div_servicios {
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.NuestrosServicios {
+  display: flex; }
+
+.section_proyectos {
+  display: flex; }
+
+.div_proyectos {
+  /*  background-color: black;*/
+  height: 700px;
+  width: 80%;
+  overflow-y: auto;
+  padding: 30px;
+  border-bottom: solid 5px black;
+  border-top: solid 5px black; }
+
+/*Sidebar Menu*/
+.sidebar_menu {
+  width: 20%;
+  box-shadow: 30px -10px 10px -20px rgba(255, 255, 255, 0.4);
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .sidebar_menu .menu {
+    width: 100%;
+    align-items: center; }
+    .sidebar_menu .menu li {
+      margin-top: 6px;
+      padding: 14px 20px;
+      list-style: none; }
+    .sidebar_menu .menu a {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none; }
+    .sidebar_menu .menu .social_media {
+      bottom: 20px;
+      list-style: none;
+      cursor: pointer; }
+  .sidebar_menu i {
+    text-decoration: none;
+    padding: 0 5px;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 20px; }
+
+.div_compania {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.section_nosotros {
+  display: flex; }
+  .section_nosotros img {
+    width: 20rem;
+    border-radius: 100%;
+    padding: 20px; }
+    .section_nosotros img:hover {
+      transition: transform .5s;
+      transform: scale(1.1);
+      box-shadow: 50 50 50 50 white; }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .nosotros .p_nosotros {
+    text-align: justify;
+    width: 100%; }
+
+.formulario {
+  margin-top: 0;
+  margin-left: 30px;
+  height: 650px; }
+
+.section_contacto {
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+h1,
+h2,
+h3,
+p {
+  text-align: justify;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  padding: 10px; }
+
+.div_titulo {
+  text-align: center; }
+  .div_titulo h1 {
+    font-size: 6rem; 
+    text-align: center;}
+
+p {
+  font-size: 1rem; }
+
+.Banner{
+  background-image: url(../img/banner.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  height: 35rem;
+}
+
+
+
+.div_informacion {
+  text-align: center;
+  padding: 3rem; }
+  .div_informacion p {
+    font-size: 1.5rem; }
+  .div_informacion h2 {
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline; }
+  .div_informacion h3 {
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none; }
+  

@@ -1,13 +1,7 @@
 /* .BotonNavegador {
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     background-image: url(../img/fondo1.jpg);
@@ -227,43 +221,3 @@ button{
 
 /*Fin de SobreNosotros*/
 
-
-/*Sidebar Menu*/
-
-.sidebar_menu {
-    width: 20%;
-    box-shadow: 30px -10px 10px -20px rgba(255, 255, 255, 0.4);
-    height: 700px;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.sidebar_menu .menu {
-    width: 100%;
-    align-items: center;
-}
-
-.sidebar_menu .menu li {
-    margin-top: 6px;
-    padding: 14px 20px;
-    list-style: none;
-}
-
-.sidebar_menu .menu a {
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.sidebar_menu .social_media {
-    bottom: 20px;
-    list-style: none;
-    cursor: pointer;
-}
-
-.sidebar_menu i {
-    text-decoration: none;
-    padding: 0 5px;
-    color: #fff;
-    opacity: 0.6;
-    font-size: 20px;
-}
